@@ -8,21 +8,69 @@ When the system opens, the first page asks the user to select their role: Voter 
 
 **Visual:**           
 **First Page**
+
+
+
+
+
+
+
+
 <img width="710" height="410" alt="1" src="https://github.com/user-attachments/assets/e2edd3bb-269b-4d8f-bf63-514edde9611f" />
 
 **Asking for Logging**
+
+
+
+
+
+
+
 <img width="462" height="385" alt="2" src="https://github.com/user-attachments/assets/1f2e4ef4-3c91-42e7-9a72-860ed1b9421d" />
 
 **Candidate list**
+
+
+
+
+
+
+
+
 <img width="821" height="311" alt="3" src="https://github.com/user-attachments/assets/10711a49-12b1-4da4-b7f1-c051c8fe0a2d" />
 
 **Confirming using fingerPrint**
+
+
+
+
+
+
+
+
 <img width="355" height="256" alt="4" src="https://github.com/user-attachments/assets/49c3054e-0a48-4bcb-908f-25e6cabae2ba" />
 
 **Admin Logging**
+
+
+
+
+
+
+
+
 <img width="310" height="188" alt="5" src="https://github.com/user-attachments/assets/ab1641db-8b47-4e55-96e1-d64fe783f36f" />
 
 **Adding new Candidate and results**
+
+
+
+
+
+
+
+
+
 <img width="832" height="430" alt="admin" src="https://github.com/user-attachments/assets/4d4c2d16-3475-46c6-b3fb-34b1f23321ac" />
 
 **Supervision**
