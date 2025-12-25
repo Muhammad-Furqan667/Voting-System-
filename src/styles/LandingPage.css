@@ -1,0 +1,142 @@
+/* LandingPage.css */
+.landing-container {
+  min-height: 100vh;
+  background: linear-gradient(135deg, #f9fafb 0%, #e5e7eb 100%);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  padding: 1rem;
+}
+
+.hero-card {
+  background-color: var(--color-white);
+  padding: 3rem;
+  border-radius: 1rem;
+  box-shadow: var(--shadow-xl);
+  max-width: 56rem;
+  width: 100%;
+  text-align: center;
+  border-top: 8px solid var(--color-primary);
+  box-shadow: 0 20px 25px -5px rgba(0, 0, 0, 0.1), 0 10px 10px -5px rgba(0, 0, 0, 0.04);
+}
+
+.logo-wrapper {
+  display: flex;
+  justify-content: center;
+  margin-bottom: 1.5rem;
+}
+
+.logo-circle {
+  width: 6rem;
+  height: 6rem;
+  background-color: var(--color-primary);
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  box-shadow: var(--shadow-lg);
+}
+
+.title {
+  font-size: 3rem;
+  font-weight: 800;
+  color: var(--color-primary);
+  margin-bottom: 0.5rem;
+  letter-spacing: -0.025em;
+}
+
+@media (max-width: 768px) {
+  .title {
+    font-size: 2.25rem;
+  }
+}
+
+.subtitle {
+  font-size: 1.25rem;
+  color: var(--color-secondary);
+  font-weight: 600;
+  margin-bottom: 2rem;
+  text-transform: uppercase;
+  letter-spacing: 0.1em;
+}
+
+.description {
+  color: var(--color-text-light);
+  margin-bottom: 3rem;
+  max-width: 42rem;
+  margin-left: auto;
+  margin-right: auto;
+  line-height: 1.625;
+}
+
+.action-buttons {
+  display: flex;
+  flex-direction: column;
+  gap: 1.5rem;
+  justify-content: center;
+}
+
+@media (min-width: 768px) {
+  .action-buttons {
+    flex-direction: row;
+  }
+}
+
+.btn-voter {
+  position: relative;
+  padding: 1rem 2rem;
+  background-color: var(--color-primary);
+  color: var(--color-white);
+  border-radius: 0.75rem;
+  font-weight: 700;
+  font-size: 1.125rem;
+  border: none;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 0.75rem;
+  transition: all 0.2s ease;
+  overflow: hidden;
+}
+
+.btn-voter:hover {
+  background-color: var(--color-primary-dark);
+  transform: translateY(-4px);
+  box-shadow: var(--shadow-lg);
+}
+
+.btn-admin {
+  padding: 1rem 2rem;
+  background-color: var(--color-white);
+  color: var(--color-primary);
+  border: 2px solid var(--color-primary);
+  border-radius: 0.75rem;
+  font-weight: 700;
+  font-size: 1.125rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 0.75rem;
+  transition: all 0.2s ease;
+}
+
+.btn-admin:hover {
+  background-color: #F3F4F6;
+  transform: translateY(-4px);
+}
+
+.footer {
+  margin-top: 3rem;
+  text-align: center;
+  color: #9CA3AF;
+  font-size: 0.875rem;
+}
+
+.separator {
+  width: 8rem;
+  height: 0.25rem;
+  background-color: var(--color-secondary);
+  margin: 1rem auto 0;
+  border-radius: 9999px;
+}
